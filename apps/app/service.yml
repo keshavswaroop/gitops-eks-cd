@@ -4,10 +4,9 @@ metadata:
   name: app-service
   namespace: cicd
 spec:
+  type: LoadBalancer
   selector:
     app: k8s-app
   ports:
-    - port: 8000
+    - port: 80
       targetPort: 8000
-      # nodePort: 30007
-  type: ClusterIP
