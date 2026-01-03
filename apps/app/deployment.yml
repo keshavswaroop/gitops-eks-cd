@@ -20,9 +20,9 @@ spec:
     spec:
       containers:
         - name: myapp
-          # image: swaroops2803/gitops-eks-app:8
-          # # image: swaroops2803/gitops-eks-app:8
-          image: swaroops2803/gitops-eks-app:8
+          # image: swaroops2803/gitops-eks-app:9
+          # # image: swaroops2803/gitops-eks-app:9
+          image: swaroops2803/gitops-eks-app:9
           # resources:
           #   limits:
           #     memory: "128Mi"
